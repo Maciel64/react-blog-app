@@ -3,16 +3,16 @@ import { PostCard, PostWidget, Categories } from '../components';
 
 
 const posts = [
-	{ title : "Aprendendo React", excerpt : "Aprendendo Reactjs com tutoriais" },
-	{ title : "Aprendendo Tailwind css", excerpt : "Aprendendo Tailwind css com tutoriais" }
+	{ title : 'Aprendendo React', excerpt : 'Aprendendo Reactjs com tutoriais' },
+	{ title : 'Aprendendo Tailwind css', excerpt : 'Aprendendo Tailwind css com tutoriais' }
 ];
 
 export default function Home() {
 	return (
-		<div className="container mx-auto px-10 mb-8 bg-gray-300">
+		<div className='container mx-auto px-10 mb-8'>
 			<Head>
 				<title>Blog - Maciel</title>
-				<link rel="icon" href="/favicon.ico" />
+				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
 			<div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>
